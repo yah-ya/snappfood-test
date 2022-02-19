@@ -1,5 +1,7 @@
 # Snapp Food Test
 
+Run Composer install 
+
 Run DB/Seed.php for create and seed the SQLite table.
 
 Run job.php for the jobs to run.
