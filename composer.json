@@ -1,0 +1,17 @@
+{
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "ext-pdo": "*",
+        "php-di/php-di": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Controllers\\": "src"
+        },
+        "classmap": [
+            "App/Models",
+            "App/Lib",
+            "App/Api"
+        ]
+    }
+}
